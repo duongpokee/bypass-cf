@@ -31,7 +31,7 @@ class c:
         pink='\033[95m'
         lightcyan='\033[96m'
         white='\033[0m'
-print c.red + """
+print"""
     __  _____  ____   __ __  ____   ____  _____ _____
    /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
   /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
@@ -41,7 +41,6 @@ print c.red + """
  \____||__|   |_____||____/ |__|  |__|__| \___| \___|
 
     CFBypass - CloudFlare Bypass - Version v2.MAIN
-                Author - SmallDoink#1102
                       Methods:
                  1] DNS      2] SSH
 """
