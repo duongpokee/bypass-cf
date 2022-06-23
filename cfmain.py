@@ -31,4 +31,4 @@ class c:
 i = raw_input(c.orange + "Website Name> " + c.white)
 websitename = "i"
 ip = socket.gethostbyname('ssh.'+i)
-print c.pink + "IP Behind Cloudflare - "+ip
+print"IP Behind Cloudflare - "+ip
