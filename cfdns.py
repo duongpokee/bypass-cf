@@ -31,7 +31,7 @@ class c:
         pink='\033[95m'
         lightcyan='\033[96m'
         white='\033[0m'
-print"""
+print'''
     __  _____  ____   __ __  ____   ____  _____ _____
    /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
   /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
@@ -43,7 +43,7 @@ print"""
     CFBypass - CloudFlare Bypass - Version v2.MAIN
                       Methods:
                  1] DNS      2] SSH
-"""
+'''
 i = raw_input(c.orange + "Wesbite> " + c.white)
 meth = raw_input(c.orange + "Method> " + c.white)
 if meth == "1":
