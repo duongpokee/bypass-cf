@@ -28,7 +28,6 @@ class c:
         lightcyan='\033[96m'
         white='\033[0m'
         
-print"1.DNS-2.SSH"
 i = raw_input(c.orange + "Website Name> " + c.white)
 websitename = "i"
 ip = socket.gethostbyname('ssh.'+i)
