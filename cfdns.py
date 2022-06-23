@@ -31,19 +31,7 @@ class c:
         pink='\033[95m'
         lightcyan='\033[96m'
         white='\033[0m'
-print'''
-    __  _____  ____   __ __  ____   ____  _____ _____
-   /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
-  /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
- /  /  |  |_  |     ||  ~  ||   _/|     |\__  |\__  |
-/   \_ |   _] |  O  ||___, ||  |  |  _  |/  \ |/  \ |
-\     ||  |   |     ||     ||  |  |  |  |\    |\    |
- \____||__|   |_____||____/ |__|  |__|__| \___| \___|
-
-    CFBypass - CloudFlare Bypass - Version v2.MAIN
-                      Methods:
-                 1] DNS      2] SSH
-'''
+print"1.DNS-2.SSH"
 i = raw_input(c.orange + "Wesbite> " + c.white)
 meth = raw_input(c.orange + "Method> " + c.white)
 if meth == "1":
