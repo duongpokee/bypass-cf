@@ -28,7 +28,7 @@ class c:
         lightcyan='\033[96m'
         white='\033[0m'
 
-print"""
+print'''
     __  _____  ____   __ __  ____   ____  _____ _____
    /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
   /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
@@ -38,7 +38,7 @@ print"""
  \____||__|   |_____||____/ |__|  |__|__| \___| \___|
 
     CFBypass - CloudFlare Bypass - Version v1.MAIN
-"""
+'''
 i = raw_input(c.orange + "Website Name> " + c.white)
 websitename = "i"
 ip = socket.gethostbyname('ssh.'+i)
