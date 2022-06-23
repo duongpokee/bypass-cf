@@ -27,18 +27,7 @@ class c:
         pink='\033[95m'
         lightcyan='\033[96m'
         white='\033[0m'
-
-print'''
-    __  _____  ____   __ __  ____   ____  _____ _____
-   /  ]|     ||    \ |  |  ||    \ /    |/ ___// ___/
-  /  / |   __||  o  )|  |  ||  o  )  o  (   \_(   \_
- /  /  |  |_  |     ||  ~  ||   _/|     |\__  |\__  |
-/   \_ |   _] |  O  ||___, ||  |  |  _  |/  \ |/  \ |
-\     ||  |   |     ||     ||  |  |  |  |\    |\    |
- \____||__|   |_____||____/ |__|  |__|__| \___| \___|
-
-    CFBypass - CloudFlare Bypass - Version v1.MAIN
-'''
+print"1.DNS-2.SSH"
 i = raw_input(c.orange + "Website Name> " + c.white)
 websitename = "i"
 ip = socket.gethostbyname('ssh.'+i)
