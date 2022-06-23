@@ -38,13 +38,13 @@ if meth == "1":
     site = "i"
     bpip = cfdns.query(i, "A")
     for rdata in bpip:
-        print c.green + "IP Behind CloudFlare"
+        print"IP Behind CloudFlare"
         print rdata
 
 elif meth == "2":
     site = "i"
     ip = socket.gethostbyname('ssh.'+i)
-    print c.pink + "IP Behind Cloudflare - "+ip
+    print"IP Behind Cloudflare - "+ip
 else:
-    print c.red + "[!] Error | Please use a listed method"
+    print"[!] Error | Please use a listed method"
 
